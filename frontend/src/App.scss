@@ -1,0 +1,149 @@
+.ui.main {
+    margin-top: 7em;
+    padding-bottom: 6em;
+  }
+
+.backtext {
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+}
+
+.right{
+    float: right;
+}
+
+.ui.card>a>.image>img, .ui.cards>.card>a>.image>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+}
+
+.ui.attached.button {
+    position: relative;
+    display: block;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.15)!important;
+}
+
+.ui.steps .step>.icon {
+    font-size: 1.8em;
+}
+
+.ui.steps .step>.icon, .ui.steps .step>.icon~.content {
+    align-self: center;
+}
+
+.step .content:last-child{
+    width:70%;
+}
+
+.bottom-button, .bottom-disabled-button{
+    flex-grow: 1;
+    opacity: 0.4;
+}
+
+.bottom-button:hover{
+    opacity: 1;
+}
+
+.bottom-disabled-button:hover{
+    opacity: 0.4;
+}
+
+.ui.bottom.attached.button:hover{
+    background-color: #6435c9;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.bottom-buttons{
+    display:flex;
+}
+
+.cover{
+    max-height:300px;
+    object-fit: cover;
+}
+
+.fix-button{
+    margin: 0.3em 0 0 1em !important;
+}
+
+.fix-margin{
+    margin-right: 0 !important;
+}
+
+.fix-or-left{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.fix-or-right{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.fix-or-middle{
+    border-radius: 0 !important;
+}
+
+.center{
+    justify-content: center;
+    border-right: none;
+    color: #6435c9;
+}
+
+.ui.menu{
+    border-top:none;
+}
+
+.ui.list .list>.item .description, .ui.list>.item .description {
+    color: rgba(0,0,0,.35);
+    font-weight: 100;
+}
+
+.menu .title{
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.menu .title h1{
+    margin-top: 0;
+}
+
+.card > .content > .description{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card > .content > .header{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.search > .input{
+    width: 100%;
+}
+
+.button.medium {
+    height: 38px;
+}
+
+.ui.grid > .column.head{
+    padding-bottom: 0;
+}
